@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #ddd;
+    height: 100vh;
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*..............................*/
+header {
+    background: #ccc;
+    min-height: 3em;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userContainer {
+    background: #999;
+    width: 13em;
+    min-height: 2.5em;
+    margin-left: .2em;
+    margin-top: 0;
+}
+
+.menuContainer {
+    background: #999;
+    width: 1.5em;
+    min-height: 1.5em;
+    margin-right: .2em;
+    margin-bottom: 1em;
+}
+/*..............................*/
+
+.imageContainer {
+    background: #fff;
+    height: 40em;
+    width: 40%;
+    margin-top: .2em;
+}
+
+/*..............................*/
+
+.contentContainer {
+    background: #ccc;
+    min-height: 3em;
+    width: 40%;
+    margin-top: .2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.discripContainer {
+    background: #999;
+    width: 13em;
+    min-height: 2.5em;
+    margin-left: .2em;
+}
+
+.buttonContainer {
+    background: #999;
+    width: 8em;
+    min-height: 2.5em;
+    margin-right: .2em;
+}
+
+/*..............................*/
+
+footer {
+    background: #ccc;
+    min-height: 3em;
+    width: 40%;
+    margin-top: .2em;
+    display: flex;
+    align-items: center;
+
+}
+
+.socialLike {
+    background: #999;
+    width: 5em;
+    min-height: 2.5em;
+    margin-left: .2em;
+}

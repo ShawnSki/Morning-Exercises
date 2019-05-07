@@ -3,8 +3,15 @@
 
 const cat = { name: 'Dr. Mittens', favoriteFood: 'fish flesh' };
 
+const catClone = cat;
+
+catClone.name = 'Puffy';
+
+console.log(catClone)
+
 // now change the value of name on the new cat.
 // Check the values of both the old and the new cat.
+
 
 // They both have the same name?!
 // This is because we created a reference to the same object, we didn't make a copy.
