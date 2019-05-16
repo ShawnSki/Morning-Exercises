@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navContainer {
+    background: #f9f9f9;
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navContainer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.navContainer li {
+    padding: 0 1em;
+}
+
+.subNavContainer {
+    
+}
+.subNavContainer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.subNavContainer li {
+    color: #fff;
+}
+
+.titleContainer {
+    text-align: center;
+    color: #fff;
+    margin: 4em 0;
+}
+
+
+.blurbsContainer {
+    margin: 4em 0;
+    display: flex;
+    justify-content: space-around;
+}
+.blurb {
+    width: 35%;
+    margin: 1em;
+    text-align: center;
+    color: #fff;
+}
+.blurb h1 {
+    font-weight: 100;
+    font-size: 20px;
+}
+.blurb p {
+    font-size: 12px;
+}
+.blurb span {
+    font-size: 12px;
+    color: #1473e7;
+    margin-right: 1em;
+}
+.blurb button {
+    background: #1473e7;
+    border: none;
+    color: #fff;
+    border-radius: 4em;
+    padding: 1em 2em;
+}
+
+.heroImage {
+    height: 30vh;
+    background: #ccc;
+    margin: 1em;
+}
